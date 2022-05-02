@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Page is Displayed,PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyNewContactmethod started]]>
+    </line>
+    <line>
+      <![CDATA[CRM Home is Displayed,PASS]]>
+    </line>
+    <line>
+      <![CDATA[contact pageis displayed]]>
+    </line>
+    <line>
+      <![CDATA[create contact page is Displayed,PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyNewContactmethod passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-02T12:48:06 IST" name="Default suite" finished-at="2022-05-02T12:51:38 IST" duration-ms="211136">
+    <groups>
+    </groups>
+    <test started-at="2022-05-02T12:48:06 IST" name="Default test" finished-at="2022-05-02T12:51:38 IST" duration-ms="211136">
+      <class name="VerifyContact.VerifyNewContact">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:VerifyContact.VerifyNewContact@2fd1433e]" started-at="2022-05-02T12:48:06 IST" name="openBrowser" finished-at="2022-05-02T12:49:53 IST" duration-ms="106053" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page is Displayed,PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyNewContact()[pri:0, instance:VerifyContact.VerifyNewContact@2fd1433e]" started-at="2022-05-02T12:49:53 IST" name="verifyNewContact" finished-at="2022-05-02T12:51:38 IST" duration-ms="104906" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyNewContactmethod started]]>
+            </line>
+            <line>
+              <![CDATA[CRM Home is Displayed,PASS]]>
+            </line>
+            <line>
+              <![CDATA[contact pageis displayed]]>
+            </line>
+            <line>
+              <![CDATA[create contact page is Displayed,PASS]]>
+            </line>
+            <line>
+              <![CDATA[verifyNewContactmethod passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNewContact -->
+      </class> <!-- VerifyContact.VerifyNewContact -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
